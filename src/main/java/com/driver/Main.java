@@ -2,11 +2,13 @@ package com.driver;
 
 public class Main {
 
+    public static void main(String[] args) {
         Product p = new Product();
         int firstResult = p.product(5, 6);
         int secondResult = p.product(5, 6, 7);
         double thirdResult = p.product(5, 6);
-
+    }
+}
 
 class Product{
     public int product(int x, int y) {
@@ -18,5 +20,4 @@ class Product{
     public double product(double x, double y) {
         return x + y;
     }
-}
 }
