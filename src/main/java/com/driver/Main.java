@@ -11,6 +11,7 @@ public class Main {
         double thirdAnswerValue = p.product(2.1, 2.9);
 
     }
+}
 
     class Product {
         public int product(int x, int y) {
@@ -29,7 +30,7 @@ public class Main {
             return thirdAnswer;
         }
     }
-}
+
 
 //    public static void main(String[] args) {
 //        Product p = new Product();
