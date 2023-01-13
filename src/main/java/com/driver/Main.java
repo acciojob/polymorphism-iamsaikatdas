@@ -11,11 +11,11 @@ public class Main {
 class Product{
 
     public int product(int x, int y) {
-        int ans = x + y;
+        int ans = x * y;
         return ans;
     }
     public int product(int x, int y, int z) {
-        int secondAns = x + y + z;
+        int secondAns = x * y * z;
         return secondAns;
     }
     public double product(double x, double y) {
