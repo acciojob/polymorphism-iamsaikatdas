@@ -19,7 +19,7 @@ class Product{
         return secondAns;
     }
     public double product(double x, double y) {
-        double thirdans = x + y;
-        return thirdans;
+        double thirdAns = x * y;
+        return thirdAns;
     }
 }
